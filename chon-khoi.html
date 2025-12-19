@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chọn Khối Lớp - Ôn Luyện Tin Học</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { font-family: sans-serif; background-color: #f0f9ff; }
+        .card:hover { transform: translateY(-5px); }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col items-center justify-center p-4">
+
+    <a href="index.html" class="absolute top-4 left-4 flex items-center gap-2 text-slate-600 hover:text-blue-600 font-bold bg-white px-4 py-2 rounded-full shadow-sm">
+        ⬅️ Quay lại trang chủ
+    </a>
+
+    <div class="max-w-4xl w-full text-center">
+        <h1 class="text-3xl md:text-5xl font-bold text-slate-800 mb-2">🎯 Chọn Khối Lớp</h1>
+        <p class="text-slate-600 mb-10 text-lg">Em hãy chọn khối lớp của mình để bắt đầu làm bài ôn luyện nhé!</p>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            
+            <a href="#" onclick="alert('Bài tập Khối 3 đang được thầy soạn, các em quay lại sau nhé!')" 
+               class="card block bg-white rounded-2xl shadow-lg border-t-4 border-green-500 p-8 transition-all duration-300">
+                <div class="text-6xl mb-4">🌱</div>
+                <h2 class="text-2xl font-bold text-slate-800 mb-2">Khối 3</h2>
+                <p class="text-slate-500">Làm quen máy tính</p>
+                <div class="mt-4 inline-block bg-green-100 text-green-700 px-4 py-1 rounded-full text-sm font-bold">Sắp ra mắt</div>
+            </a>
+
+            <a href="#" onclick="alert('Bài tập Khối 4 đang được thầy soạn, các em quay lại sau nhé!')" 
+               class="card block bg-white rounded-2xl shadow-lg border-t-4 border-purple-500 p-8 transition-all duration-300">
+                <div class="text-6xl mb-4">🚀</div>
+                <h2 class="text-2xl font-bold text-slate-800 mb-2">Khối 4</h2>
+                <p class="text-slate-500">Soạn thảo & Internet</p>
+                <div class="mt-4 inline-block bg-purple-100 text-purple-700 px-4 py-1 rounded-full text-sm font-bold">Sắp ra mắt</div>
+            </a>
+
+            <a href="tinhoc5.html" 
+               class="card block bg-white rounded-2xl shadow-lg border-t-4 border-orange-500 p-8 transition-all duration-300 ring-2 ring-orange-200">
+                <div class="text-6xl mb-4">🎓</div>
+                <h2 class="text-2xl font-bold text-slate-800 mb-2">Khối 5</h2>
+                <p class="text-slate-500">Lập trình & Thế giới số</p>
+                <div class="mt-4 inline-block bg-orange-500 text-white px-6 py-2 rounded-full text-sm font-bold shadow-md hover:bg-orange-600">
+                    Bắt đầu làm bài ▶
+                </div>
+            </a>
+
+        </div>
+    </div>
+
+    <footer class="mt-12 text-slate-400 text-sm">
+        © Thầy Hàn Thuận Định - Giáo viên Tin học
+    </footer>
+
+</body>
+</html>
